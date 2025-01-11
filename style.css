@@ -73,12 +73,12 @@ h1 {
   display: flex;
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
-  margin-right: -430px; /* Adjust the margin as needed */
+  margin-right: -450px; /* Adjust the margin as needed */
   margin-top: -150px;
 }
 
 .image-item {
-  margin-left: 100px; /* Space between images */
+  margin-left: 40px; /* Space between images */
   text-align: center; /* Center text below images */
 }
 
