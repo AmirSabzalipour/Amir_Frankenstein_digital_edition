@@ -1,6 +1,7 @@
 body {
+    background-color: lightslategray; /* Change this to any color you like */
+  }
 
-}
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -32,8 +33,5 @@ p {
     display: none !important;
 }
 
-body {
-    background-color: lightslategray; /* Change this to any color you like */
-  }
 
 
