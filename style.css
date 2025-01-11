@@ -59,7 +59,7 @@ h1 {
 
 .homepage-intro {
   font-size: 18px; /* Adjust the font size as needed */
-  color:black; /* Change this to any color you like */
+  color:dimgray; /* Change this to any color you like */
   padding: 20px 20px 20px 20px; /* top right bottom left */
   font-family: 'Arial', sans-serif; /* Change this to any font you like */
   background-color: rgb(248, 250, 252); /* Optional: Add a background color */
@@ -74,7 +74,7 @@ h1 {
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
   margin-right: -450px; /* Adjust the margin as needed */
-  margin-top: -150px;
+  margin-top: -170px;
 }
 
 .image-item {
