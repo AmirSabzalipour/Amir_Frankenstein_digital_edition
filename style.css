@@ -77,12 +77,12 @@ h1 {
 }
 
 .image-item {
-  margin-left: 20px; /* Space between images */
+  margin-left: 40px; /* Space between images */
   text-align: center; /* Center text below images */
 }
 
 .mary-photo, .percy-photo {
-  max-width: 150px; /* Control the size of the images */
+  max-width: 170px; /* Control the size of the images */
   height: auto;
   border: 1px solid #ccc; /* Optional: Add a border */
   border-radius: 5px; /* Optional: Add rounded corners */
@@ -90,6 +90,6 @@ h1 {
 
 .image-caption {
   font-size: 14px; /* Adjust the font size as needed */
-  color: #333; /* Change this to any color you like */
+  color:black; /* Change this to any color you like */
   margin-top: 5px; /* Space between image and text */
 }
