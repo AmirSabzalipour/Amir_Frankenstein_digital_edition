@@ -4,7 +4,7 @@ body {
   margin-right: 30px;  /* Right margin */
   margin-bottom: 50px; /* Bottom margin */
   margin-left: 40px;   /* Left margin */
-  font-family: 'Avenir', sans-serif; /* Change this to any font you like */
+  font-family: Tahoma, sans-serif; /* Change this to any font you like */
 }
 .starter-template {
   padding: 40px 15px;
