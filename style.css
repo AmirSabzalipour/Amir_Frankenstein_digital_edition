@@ -1,9 +1,9 @@
 body {
-    background-color: lightgray; /* Change this to any color you like */
-    margin-top: 20px;    /* Top margin */
+    background-color: white; /* Change this to any color you like */
+    margin-top: 50px;    /* Top margin */
     margin-right: 30px;  /* Right margin */
-    margin-bottom: 20px; /* Bottom margin */
-    margin-left: 30px;   /* Left margin */
+    margin-bottom: 50px; /* Bottom margin */
+    margin-left: 40px;   /* Left margin */
   }
 .starter-template {
   padding: 40px 15px;
