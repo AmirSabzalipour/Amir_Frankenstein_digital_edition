@@ -68,3 +68,29 @@ h1 {
   max-width: 100%; /* Ensure it doesn't exceed the container's width */
   margin: 0 auto; /* Center the paragraph */
 }
+
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items to the right */
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.image-item {
+  margin-bottom: 20px; /* Space between images */
+  text-align: center; /* Center text below images */
+}
+
+.mary-photo, .percy-photo {
+  max-width: 150px; /* Control the size of the images */
+  height: auto;
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.image-caption {
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #333; /* Change this to any color you like */
+  margin-top: 5px; /* Space between image and text */
+}
