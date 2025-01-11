@@ -63,7 +63,7 @@ h1 {
   padding: 10px 10px 10px 10px; /* top right bottom left */
   font-family: 'Arial', sans-serif; /* Change this to any font you like */
   background-color: lightsteelblue; /* Optional: Add a background color */
-  border-radius: 50px; /* Optional: Add rounded corners */
+  border-radius: 35px; /* Optional: Add rounded corners */
   width: 100%; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed the container's width */
   margin: 0 auto; /* Center the paragraph */
