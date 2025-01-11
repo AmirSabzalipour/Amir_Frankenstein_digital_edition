@@ -32,4 +32,8 @@ p {
     display: none !important;
 }
 
+body {
+    background-color: lightblue; /* Change this to any color you like */
+  }
+
 
