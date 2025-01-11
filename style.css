@@ -69,16 +69,15 @@ h1 {
   margin: 0 auto; /* Center the paragraph */
 }
 
-
 .image-container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* Align items to the right */
+  flex-direction: row; /* Place items in a row */
+  justify-content: flex-end; /* Align items to the right */
   margin-right: 20px; /* Adjust the margin as needed */
 }
 
 .image-item {
-  margin-bottom: 20px; /* Space between images */
+  margin-left: 20px; /* Space between images */
   text-align: center; /* Center text below images */
 }
 
