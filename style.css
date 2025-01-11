@@ -73,11 +73,11 @@ h1 {
   display: flex;
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
-  margin-right: 20px; /* Adjust the margin as needed */
+  margin-right: -60px; /* Adjust the margin as needed */
 }
 
 .image-item {
-  margin-left: 200px; /* Space between images */
+  margin-left: 100px; /* Space between images */
   text-align: center; /* Center text below images */
 }
 
@@ -91,5 +91,5 @@ h1 {
 .image-caption {
   font-size: 14px; /* Adjust the font size as needed */
   color:black; /* Change this to any color you like */
-  margin-top: -100px; /* Space between image and text */
+  margin-top: 5px; /* Space between image and text */
 }
