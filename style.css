@@ -58,10 +58,13 @@ h1 {
 
 
 .homepage-intro {
-  font-size: 20px; /* Adjust the font size as needed */
-  color:white; /* Change this to any color you like */
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #555; /* Change this to any color you like */
   padding: 10px 15px 20px 25px; /* top right bottom left */
-  font-family: 'Arial', sans-serif; /* Change this to any font you like */
-  background-color: lightslategray; /* Optional: Add a background color */
-  border-radius: 5px; /* Optional: Add rounded corners */
+  font-family: 'Georgia', serif; /* Change this to any font you like */
+  background-color: #f9f9f9; /* Optional: Add a background color */
+  border-radius: 20px; /* Optional: Add rounded corners */
+  width: 80%; /* Adjust the width as needed */
+  max-width: 100%; /* Ensure it doesn't exceed the container's width */
+  margin: 0 auto; /* Center the paragraph */
 }
