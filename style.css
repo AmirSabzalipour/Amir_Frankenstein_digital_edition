@@ -65,7 +65,8 @@ h1 {
   width: 90%; /* Full width */
   max-width: 100%; /* Ensure it doesn't exceed container width */
   margin: 0 auto 20px; /* Center the paragraphs with a bottom margin */
-  line-height: 1.2; /* Slightly more spacing between lines for readability */
+  line-height: 1.5; /* Slightly more spacing between lines for readability */
+  text-align: justify; /* Justify text for a cleaner, aligned look */
 }
 .homepage-intro p {
   margin-bottom: 0px; /* Adjust this value to control the spacing */
