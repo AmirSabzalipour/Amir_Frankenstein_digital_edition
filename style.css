@@ -58,17 +58,17 @@ h1 {
 
 .homepage-intro {
   font-size: 20px; /* Adjust the font size as needed */
-  color:gray; /* Text color */
+  color:black; /* Text color */
   padding: 10px; /* Increased padding for a more spacious look */
   font-family: 'Arial', sans-serif; /* Font style */
   border-radius: 35px; /* Rounded corners */
-  width: 100%; /* Full width */
+  width: 90%; /* Full width */
   max-width: 100%; /* Ensure it doesn't exceed container width */
   margin: 0 auto 20px; /* Center the paragraphs with a bottom margin */
-  line-height: 1.5; /* Slightly more spacing between lines for readability */
+  line-height: 1.2; /* Slightly more spacing between lines for readability */
 }
 .homepage-intro p {
-  margin-bottom: 4px; /* Adjust this value to control the spacing */
+  margin-bottom: 0px; /* Adjust this value to control the spacing */
 }
 
 .homepage-intro i {
