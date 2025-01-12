@@ -150,5 +150,7 @@ h1 {
 .navbar-brand {
   font-family: 'Calibri', sans-serif; 
   font-weight: bold;
+  color:gray; /* Change the color as needed */
+
 }
 
