@@ -115,7 +115,7 @@ p {
   line-height: 1.6;
   text-align: justify;
   color: #4a4a4a;
-  margin: 10px 10px;
+  padding-bottom: 20px; /* Adds 20px space at the bottom inside the <p> element */
 }
 
 
