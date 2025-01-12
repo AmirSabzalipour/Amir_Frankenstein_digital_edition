@@ -60,14 +60,14 @@ h1 {
 .homepage-intro {
   font-size: 20px; /* Adjust the font size as needed */
   color: dimgray; /* Text color */
-  padding: 1px; /* Uniform padding for each paragraph */
+  padding: 15px; /* Increased padding for a more spacious look */
   font-family: 'Arial', sans-serif; /* Font style */
   background-color: goldenrod; /* Background color */
   border-radius: 35px; /* Rounded corners */
   width: 100%; /* Full width */
   max-width: 100%; /* Ensure it doesn't exceed container width */
   margin: 0 auto 20px; /* Center the paragraphs with a bottom margin */
-  line-height: 1.6; /* Increase line spacing */
+  line-height: 1.8; /* Slightly more spacing between lines for readability */
 }
 
 .homepage-intro i {
@@ -75,9 +75,8 @@ h1 {
 }
 
 .homepage-intro br {
-  margin-bottom: 0; /* Remove extra space from <br> */
+  margin-bottom: 10px; /* Increased space after <br> for better separation */
 }
-
 
 
 .image-container {
