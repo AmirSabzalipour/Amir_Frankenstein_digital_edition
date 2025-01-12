@@ -85,7 +85,7 @@ h1 {
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
   margin-right: -500px; /* Adjust the margin as needed */
-  margin-top: -800px;
+  margin-top: -600px;
 }
 
 .image-item {
@@ -101,9 +101,10 @@ h1 {
 }
 
 .image-caption {
-  font-size: 18px; /* Adjust the font size as needed */
-  color:black; /* Change this to any color you like */
-  margin-top: 10px; /* Space between image and text */
+  font-size: 16px; /* Adjust the font size as needed */
+  color:gray; /* Change this to any color you like */
+  margin-top: 8px; /* Space between image and text */
+  font-family: 'Calibri', sans-serif;
 }
 
 
