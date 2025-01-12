@@ -31,6 +31,10 @@ h1 {
 @media (max-width: 576px) {
   .top-image {
     height: auto; /* Maintain the original aspect ratio on smaller screens */
+  padding-top: 20px;    /* Top padding */
+  padding-left: 5px;   /* Left padding */
+  padding-bottom: 50px; /* Bottom padding */
+  padding-right: 50px;  /* Right padding */
   }
 }
 
