@@ -60,7 +60,7 @@ h1 {
 .homepage-intro {
   font-size: 20px; /* Adjust the font size as needed */
   color: dimgray; /* Text color */
-  padding: 20px; /* Uniform padding for each paragraph */
+  padding: 1px; /* Uniform padding for each paragraph */
   font-family: 'Arial', sans-serif; /* Font style */
   background-color: goldenrod; /* Background color */
   border-radius: 35px; /* Rounded corners */
