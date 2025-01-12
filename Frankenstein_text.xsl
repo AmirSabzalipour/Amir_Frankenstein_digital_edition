@@ -97,6 +97,8 @@
             <xsl:apply-templates/>
         </del>
     </xsl:template>
+
+    
     <xsl:template match="tei:hi[@rend='underline']">
     <span class="underline" hand="{@hand}">
         <xsl:apply-templates/>
