@@ -1,24 +1,23 @@
+/* Style for the homepage intro section */
 .homepage-intro {
   font-size: 20px; /* Adjust the font size as needed */
   color: black; /* Text color */
   padding: 20px; /* Add padding for spacing inside the section */
   font-family: 'Cambria', serif; /* Font style */
   border-radius: 5px; /* Slightly round the corners */
-  width: 100vw; /* Extend to the full width of the viewport */
-  height: 100vh; /* Extend to the full height of the viewport */
+  width: 100%; /* Full width of its container (no viewport width) */
+  height: auto; /* Adjust to content's height */
   box-sizing: border-box; /* Ensure padding is included in the total width */
   line-height: 1.5; /* Improve readability with line spacing */
   text-align: justify; /* Justify text for a cleaner look */
   background-color: #f9f9f9; /* Optional: Add a subtle background color */
   display: flex; /* Use flexbox for centering content */
-  align-items: center; /* Center content vertically */
+  align-items: flex-start; /* Center content vertically */
   justify-content: center; /* Center content horizontally */
-  line-height: 1.6;
   margin-bottom: 20px;
-}
-.col-lg-8 {
-  width: 100%;
-  max-width: 100%;
+  max-width: 100%; /* Ensure it doesn’t exceed the screen width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+  margin-top: 30px; /* Optional: Adjust top margin if needed */
 }
 
 /* Centralize images in the image-container */
@@ -28,7 +27,7 @@
   justify-content: center; /* Center items vertically */
   align-items: center; /* Center items horizontally */
   margin: 20px auto; /* Center horizontally with top and bottom spacing */
-  width: 80%; /* Adjust to the container width */
+  width: 100%; /* Adjust to full width */
 }
 
 /* Centralize the table and its title */
@@ -45,8 +44,16 @@
 .table-text {
   font-size: 18px; /* Font size */
   font-family: 'Cambria', serif; /* Font family */
-  width: 80%; /* Adjust to container width */
+  width: 100%; /* Use full width of the parent */
   table-layout: auto; /* Automatically adjust column widths */
   margin: 0 auto; /* Center the table horizontally */
   text-align: center; /* Center align table content */
+}
+
+/* Optional: Adjust max-width for large screens */
+@media (min-width: 992px) {
+  .homepage-intro {
+    width: 80%; /* Restrict the width to 80% for large screens */
+    margin: 20px auto; /* Center horizontally */
+  }
 }
