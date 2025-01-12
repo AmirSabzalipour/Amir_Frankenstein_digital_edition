@@ -57,7 +57,7 @@ h1 {
 .homepage-intro {
   font-size: 20px; /* Adjust the font size as needed */
   color:black; /* Text color */
-  padding: 10px; /* Increased padding for a more spacious look */
+  padding: 0px; /* Increased padding for a more spacious look */
   font-family: 'Cambria', serif; /* Font style */
   border-radius: 0px; /* Rounded corners */
   width: 80%; /* Full width */
