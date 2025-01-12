@@ -58,11 +58,11 @@ h1 {
 
 
 .homepage-intro {
-  font-size: 18px; /* Adjust the font size as needed */
+  font-size: 22px; /* Adjust the font size as needed */
   color:dimgray; /* Change this to any color you like */
   padding: 20px 20px 20px 20px; /* top right bottom left */
   font-family: 'Arial', sans-serif; /* Change this to any font you like */
-  background-color: rgb(248, 250, 252); /* Optional: Add a background color */
+  background-color: white; /* Optional: Add a background color */
   border-radius: 35px; /* Optional: Add rounded corners */
   width: 100%; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed the container's width */
