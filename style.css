@@ -100,10 +100,7 @@ h1 {
   font-size: 14px; /* Change this to your desired font size */
   font-family: 'Arial', sans-serif; /* Change this to your desired font family */
 }
-.reference-text {
-  font-size: 18px; /* Change this to your desired font size */
-  font-family: 'Arial', sans-serif; /* Change this to your desired font family */
-}
+
 
 .table-title {
   font-size: 20px; /* Adjust the font size as needed */
@@ -112,5 +109,10 @@ h1 {
   text-align: center; /* Center align the title */
   margin-bottom: 20px; /* Add some space below the title */
   font-family: 'Arial', sans-serif; 
+  margin-top: 300px; 
 }
 
+.reference-text {
+  font-size: 18px; /* Change this to your desired font size */
+  font-family: 'Arial', sans-serif; /* Change this to your desired font family */
+}
