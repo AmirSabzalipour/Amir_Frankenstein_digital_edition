@@ -1,5 +1,5 @@
 body {
-  background-color: #d4ded4; /* Very light olive background color */  margin-top: 50px;    /* Top margin */
+  background-color: #e6e6c8; /* Very light olive background color */  margin-top: 50px;    /* Top margin */
   margin-right: 30px;  /* Right margin */
   margin-bottom: 50px; /* Bottom margin */
   margin-left: 40px;   /* Left margin */
@@ -130,19 +130,18 @@ h1 {
 
 
 
-/* Change font size and style for main navigation links */
-.navbar .nav-link {
-  font-size: 20px; /* Adjust the size as needed */
-  font-family: 'Georgia', serif; /* Change to your desired font */
-  font-weight: bold; /* Make the text bold */
-  color: navy; /* Change the text color */
-  text-transform: uppercase; /* Make the text uppercase */
+.navbar {
+  border-radius: 20px; /* Adjust this value for roundness */
+  overflow: hidden; /* Ensures content stays inside the rounded corners */
 }
 
-/* Change font size and style for dropdown items */
+/* Navigation links font size */
+.navbar .nav-link {
+  font-size: 25px; /* Adjust this value as needed */
+}
+
+/* Optional: Change font size for dropdown items */
 .navbar .dropdown-menu .dropdown-item {
-  font-size: 18px; /* Font size for dropdown items */
-  font-family: 'Courier New', monospace; /* Custom font for dropdown */
-  color: darkgreen; /* Dropdown text color */
+  font-size: 40px; /* Adjust for dropdown items */
 }
 
