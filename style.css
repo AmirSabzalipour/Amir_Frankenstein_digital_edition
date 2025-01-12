@@ -7,7 +7,7 @@ body {
   font-family: 'Cambria', serif; /* Font style */}
 
 .homepage {
-  background-color: rgb(169, 169, 146); /* Change this to any color you like */
+  background-color: red; /* Change this to any color you like */
   margin-top: 50px;    /* Top margin */
   margin-right: 30px;  /* Right margin */
   margin-bottom: 50px; /* Bottom margin */
