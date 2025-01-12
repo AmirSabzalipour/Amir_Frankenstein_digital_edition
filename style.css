@@ -1,15 +1,15 @@
-/* Centralize text in the homepage-intro */
 .homepage-intro {
   font-size: 20px; /* Adjust the font size as needed */
   color: black; /* Text color */
-  padding: 0px; /* Adjust padding for spacing */
+  padding: 20px; /* Add padding for spacing inside the section */
   font-family: 'Cambria', serif; /* Font style */
-  border-radius: 0px; /* Rounded corners */
-  width: 80%; /* Full width */
-  max-width: 90%; /* Ensure it doesn't exceed container width */
-  margin: 0 auto 20px; /* Center horizontally and add bottom margin */
-  line-height: 1.5; /* Slightly more spacing between lines for readability */
-  text-align: justify; /* Justify text for alignment */
+  border-radius: 5px; /* Slightly round the corners */
+  width: 100%; /* Extend to the full width of the screen */
+  margin: 0; /* Remove margins to avoid gaps */
+  box-sizing: border-box; /* Ensure padding is included in the total width */
+  line-height: 1.5; /* Improve readability with line spacing */
+  text-align: justify; /* Justify text for a cleaner look */
+  background-color: #f9f9f9; /* Optional: Add a subtle background color */
 }
 
 /* Centralize images in the image-container */
