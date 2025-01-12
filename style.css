@@ -133,21 +133,17 @@ h1 {
 
 .navbar {
   border-radius: 25px; /* Adjust this value for roundness */
-  font-family: 'Calibri', sans-serif; 
-  font-weight: bold;
+ 
 }
 
 /* Navigation links font size */
 .navbar .nav-link {
   font-size: 25px; /* Adjust this value as needed */
-  font-family: 'Calibri', sans-serif; 
-  font-weight: bold;
-}
+ }
 
 /* Optional: Change font size for dropdown items */
 .navbar .dropdown-menu .dropdown-item {
   font-size: 24px; /* Adjust for dropdown items */
-  font-family: 'Calibri', sans-serif; 
 }
 
 .navbar-brand {
