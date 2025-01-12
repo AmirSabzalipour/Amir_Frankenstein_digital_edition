@@ -67,6 +67,9 @@ h1 {
   margin: 0 auto 20px; /* Center the paragraphs with a bottom margin */
   line-height: 1.5; /* Slightly more spacing between lines for readability */
 }
+.homepage-intro p {
+  margin-bottom: 4px; /* Adjust this value to control the spacing */
+}
 
 .homepage-intro i {
   font-style: italic; /* Make text in <i> italic */
