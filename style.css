@@ -145,3 +145,8 @@ h1 {
   font-family: 'Arial', sans-serif; 
 }
 
+.navbar-brand {
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold;
+}
+
