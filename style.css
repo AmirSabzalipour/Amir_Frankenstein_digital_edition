@@ -65,7 +65,7 @@ h1 {
   width: 100%; /* Full width */
   max-width: 100%; /* Ensure it doesn't exceed container width */
   margin: 0 auto 20px; /* Center the paragraphs with a bottom margin */
-  line-height: 1.1; /* Slightly more spacing between lines for readability */
+  line-height: 1.5; /* Slightly more spacing between lines for readability */
 }
 
 .homepage-intro i {
@@ -81,8 +81,8 @@ h1 {
   display: flex;
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
-  margin-right: -900px; /* Adjust the margin as needed */
-  margin-top: -300px;
+  margin-right: -500px; /* Adjust the margin as needed */
+  margin-top: -600px;
 }
 
 .image-item {
@@ -91,7 +91,7 @@ h1 {
 }
 
 .mary-photo, .percy-photo {
-  max-width: 250px; /* Control the size of the images */
+  max-width: 220px; /* Control the size of the images */
   height: auto;
   border: 1px solid #ccc; /* Optional: Add a border */
   border-radius: 5px; /* Optional: Add rounded corners */
