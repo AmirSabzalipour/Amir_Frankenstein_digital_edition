@@ -70,6 +70,19 @@ h1 {
   line-height: 1.6; 
 }
 
+.homepage-intro p {
+  font-size: 18px; /* Adjust the font size as needed */
+  color: dimgray; /* Change this to any color you like */
+  padding: 10px 20px; /* Padding around the text */
+  font-family: 'Arial', sans-serif; /* Change the font */
+  background-color: white; /* Optional: Background color */
+  border-radius: 35px; /* Optional: Rounded corners */
+  width: 100%; /* Full width */
+  line-height: 1.6; /* Increase the space between lines */
+}
+
+
+
 .image-container {
   display: flex;
   flex-direction: row; /* Place items in a row */
