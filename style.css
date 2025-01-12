@@ -86,7 +86,7 @@ h1 {
   align-items: center; /* Center the items horizontally */
   margin-top: -750px; /* Adjust top margin as needed */
   margin-bottom: 100px; /* Add space below the images */
-  margin-left: 1000px;
+  margin-left: 1100px;
 }
 
 .image-item {
@@ -125,7 +125,7 @@ h1 {
   margin-bottom: 20px; /* Add some space below the title */
   font-family: 'Cambria', serif;
   margin-top: 300px; /* Adjust this value to move the title up or down */
-  margin-right: 40px;
+  margin-right: 0px;
 }
 
 .reference-text {
