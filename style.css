@@ -62,7 +62,7 @@ h1 {
   color: dimgray; /* Text color */
   padding: 20px; /* Uniform padding for each paragraph */
   font-family: 'Arial', sans-serif; /* Font style */
-  background-color: red; /* Background color */
+  background-color: goldenrod; /* Background color */
   border-radius: 35px; /* Rounded corners */
   width: 100%; /* Full width */
   max-width: 100%; /* Ensure it doesn't exceed container width */
