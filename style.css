@@ -55,7 +55,7 @@ h1 {
 
 
 .homepage-intro {
-  font-size: 16px; /* Adjust the font size as needed */
+  font-size: 18px; /* Adjust the font size as needed */
   color:black; /* Text color */
   padding: 10px; /* Increased padding for a more spacious look */
   font-family: 'Cambria', serif; /* Font style */
@@ -124,7 +124,7 @@ h1 {
 }
 
 .reference-text {
-  font-size: 18px; /* Change this to your desired font size */
+  font-size: 24px; /* Change this to your desired font size */
    font-family: 'Cambria', serif; /* Change this to your desired font family */
 }
 
