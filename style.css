@@ -10,8 +10,8 @@ body {
 /* Header image adjustments */
 .top-image {
   width: 100%; /* Ensures it covers the full width */
-  height: auto; /* Maintains aspect ratio */
-  object-fit: cover; /* Ensures the image scales well */
+  height: 300px; /* Reduced height for larger screens */
+  object-fit: cover; 
 }
 
 /* Homepage intro */
@@ -126,6 +126,13 @@ body {
 
 /* Phones */
 @media (max-width: 576px) {
+
+
+
+  .top-image {
+    height: auto; /* Maintain the original aspect ratio on smaller screens */
+  }
+  
   .navbar .nav-link {
     font-size: 1rem;
   }
