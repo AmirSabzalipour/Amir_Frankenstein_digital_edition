@@ -1,148 +1,43 @@
-/* Global styles */
-body {
-  background-color: #D3D3D3;
-  margin: 20px auto;
-  font-family: 'Cambria', serif;
-  max-width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-}
-
-/* Header image adjustments */
-.top-image {
-  width: 100%; /* Ensures it covers the full width */
-  height: 300px; /* Reduced height for larger screens */
-  object-fit: cover; 
-}
-
-/* Homepage intro */
+/* Centralize text in the homepage-intro */
 .homepage-intro {
-  font-size: 1.25rem;
-  color: black;
-  padding: 0;
-  font-family: 'Cambria', serif;
-  width: 90%;
-  max-width: 60rem; /* Limit max width */
-  margin: 0 auto 2rem;
-  line-height: 1.6;
-  text-align: justify;
+  font-size: 20px; /* Adjust the font size as needed */
+  color: black; /* Text color */
+  padding: 0px; /* Adjust padding for spacing */
+  font-family: 'Cambria', serif; /* Font style */
+  border-radius: 0px; /* Rounded corners */
+  width: 80%; /* Full width */
+  max-width: 90%; /* Ensure it doesn't exceed container width */
+  margin: 0 auto 20px; /* Center horizontally and add bottom margin */
+  line-height: 1.5; /* Slightly more spacing between lines for readability */
+  text-align: justify; /* Justify text for alignment */
 }
 
-/* Image Container */
+/* Centralize images in the image-container */
 .image-container {
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
-  justify-content: flex-start; /* Aligns images to the left */
-  align-items: flex-start;
-  gap: 2rem; /* Adds spacing between images */
-  margin: 2rem auto; /* Centers the container vertically */
-  width: 100%; /* Ensures full-width layout */
-  padding: 0 2rem; /* Adds horizontal padding */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  margin: 20px auto; /* Center horizontally with top and bottom spacing */
+  width: 80%; /* Adjust to the container width */
 }
 
-.image-item {
-  flex: 1 1 calc(33% - 2rem); /* Adjust image size for a grid layout */
-  max-width: 15rem; /* Prevent overly large images */
-  text-align: center;
-}
-
-.mary-photo, .percy-photo {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
-}
-
-.image-caption {
-  font-size: 1rem;
-  color: gray;
-  margin-top: 0.5rem;
-  font-family: 'Cambria', serif;
-}
-
-/* Navigation Bar */
-.navbar {
-  border-radius: 1.5rem;
-  background-color: red;
-}
-
-.navbar .nav-link {
-  font-size: 1.25rem;
-}
-
-/* Table */
+/* Centralize the table and its title */
 .table-title {
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 2rem auto 1rem;
-  color: #333;
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: normal; /* Keep the title weight */
+  color: #333; /* Change the color as needed */
+  text-align: center; /* Center align the title */
+  margin-bottom: 20px; /* Add some space below the title */
+  font-family: 'Cambria', serif;
+  margin-top: 50px; /* Adjust this value to move the title as needed */
 }
 
-/* Footer */
-.footer {
-  background-color: #f8f9fa;
-  padding: 1rem;
-  text-align: center;
-  margin-top: 2rem;
-  border-top: 1px solid #ccc;
-}
-
-/* Responsive Design */
-
-/* Laptops and smaller screens */
-@media (max-width: 1024px) {
-  .homepage-intro {
-    font-size: 1rem;
-    width: 95%;
-  }
-
-  .image-container {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center align images */
-  }
-
-  .image-item {
-    max-width: 80%; /* Limit width on smaller screens */
-  }
-}
-
-/* Tablets */
-@media (max-width: 768px) {
-  .homepage-intro {
-    font-size: 0.9rem;
-  }
-
-  .image-container {
-    gap: 1rem; /* Reduce spacing between images */
-  }
-
-  .mary-photo, .percy-photo {
-    max-width: 90%; /* Adjust image size for smaller screens */
-  }
-
-  .table-title {
-    font-size: 1.25rem;
-  }
-}
-
-/* Phones */
-@media (max-width: 576px) {
-
-
-
-  .top-image {
-    height: auto; /* Maintain the original aspect ratio on smaller screens */
-  }
-  
-  .navbar .nav-link {
-    font-size: 1rem;
-  }
-
-  .homepage-intro {
-    font-size: 0.875rem;
-    padding: 0 1rem;
-  }
-
-  .mary-photo, .percy-photo {
-    max-width: 100%;
-  }
+.table-text {
+  font-size: 18px; /* Font size */
+  font-family: 'Cambria', serif; /* Font family */
+  width: 80%; /* Adjust to container width */
+  table-layout: auto; /* Automatically adjust column widths */
+  margin: 0 auto; /* Center the table horizontally */
+  text-align: center; /* Center align table content */
 }
