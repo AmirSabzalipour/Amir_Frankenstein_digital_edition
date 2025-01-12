@@ -58,11 +58,11 @@ h1 {
 
 
 .homepage-intro {
-  font-size: 30px; /* Adjust the font size as needed */
+  font-size: 24px; /* Adjust the font size as needed */
   color:dimgray; /* Change this to any color you like */
   padding: 20px 20px 20px 20px; /* top right bottom left */
   font-family: 'Arial', sans-serif; /* Change this to any font you like */
-  background-color:white; /* Optional: Add a background color */
+  background-color:red; /* Optional: Add a background color */
   border-radius: 35px; /* Optional: Add rounded corners */
   width: 100%; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed the container's width */
@@ -71,11 +71,11 @@ h1 {
 }
 
 .homepage-intro p {
-  font-size: 40px; /* Adjust the font size as needed */
+  font-size: 24px; /* Adjust the font size as needed */
   color: dimgray; /* Change this to any color you like */
   padding: 10px 20px; /* Padding around the text */
   font-family: 'Arial', sans-serif; /* Change the font */
-  background-color: white; /* Optional: Background color */
+  background-color:red; /* Optional: Background color */
   border-radius: 35px; /* Optional: Rounded corners */
   width: 100%; /* Full width */
   line-height: 1.6; /* Increase the space between lines */
