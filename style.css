@@ -60,7 +60,7 @@ h1 {
   padding: 0px; /* Increased padding for a more spacious look */
   font-family: 'Cambria', serif; /* Font style */
   border-radius: 0px; /* Rounded corners */
-  width: 0%; /* Full width */
+  width: 80%; /* Full width */
   max-width: 90%; /* Ensure it doesn't exceed container width */
   margin: 0 auto 20px; /* Center the paragraphs with a bottom margin */
   line-height: 1.5; /* Slightly more spacing between lines for readability */
@@ -111,7 +111,7 @@ h1 {
 .table-text {
   font-size: 18px; /* Font size */
   font-family: 'Cambria', serif; /* Font family */
-  width: 100%; /* Make table full width */
+  width: 90%; /* Make table full width */
   table-layout: fixed; /* Fix column layout */
   margin: 0 auto; /* Center the table horizontally */
 }
