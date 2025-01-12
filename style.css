@@ -122,7 +122,8 @@ h1 {
   text-align: center; /* Center align the title */
   margin-bottom: 20px; /* Add some space below the title */
   font-family: 'Cambria', serif;
-  margin-top: 40px; /* Adjust this value to move the title up or down */
+  margin-top: 80px; /* Adjust this value to move the title up or down */
+  margin-right: 40px;
 }
 
 .reference-text {
