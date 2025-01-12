@@ -133,6 +133,7 @@ h1 {
 
 .navbar {
   border-radius: 25px; /* Adjust this value for roundness */
+  background-color: rgb(169, 169, 146); /* Change this to any color you like */
  
 }
 
