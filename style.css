@@ -75,7 +75,7 @@ h1 {
 }
 
 .homepage-intro br {
-  margin-bottom: 10px; /* Increased space after <br> for better separation */
+  margin-bottom: 1px; /* Increased space after <br> for better separation */
 }
 
 
