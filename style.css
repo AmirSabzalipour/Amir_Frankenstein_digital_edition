@@ -55,7 +55,7 @@ h1 {
 
 
 .homepage-intro {
-  font-size: 18px; /* Adjust the font size as needed */
+  font-size: 20px; /* Adjust the font size as needed */
   color:black; /* Text color */
   padding: 10px; /* Increased padding for a more spacious look */
   font-family: 'Cambria', serif; /* Font style */
@@ -156,7 +156,7 @@ h1 {
 }
 
 .top-image {
-  padding-top: 45px; /* Adjust the padding as needed */
+  padding-top: 24px; /* Adjust the padding as needed */
   width: 1400px;      /* Fixed width of 500px */
   height: 300px;     /* Fixed height of 300px */
   object-fit: cover; 
