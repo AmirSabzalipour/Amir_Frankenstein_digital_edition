@@ -83,7 +83,7 @@ h1 {
 }
 
 .mary-photo, .percy-photo {
-  max-width: 270px; /* Control the size of the images */
+  max-width: 230px; /* Control the size of the images */
   height: auto;
   border: 1px solid #ccc; /* Optional: Add a border */
   border-radius: 5px; /* Optional: Add rounded corners */
