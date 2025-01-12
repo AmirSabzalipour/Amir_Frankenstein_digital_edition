@@ -73,7 +73,7 @@ h1 {
   display: flex;
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
-  margin-right: -800px; /* Adjust the margin as needed */
+  margin-right: -900px; /* Adjust the margin as needed */
   margin-top: -700px;
 }
 
@@ -83,16 +83,16 @@ h1 {
 }
 
 .mary-photo, .percy-photo {
-  max-width: 230px; /* Control the size of the images */
+  max-width: 250px; /* Control the size of the images */
   height: auto;
   border: 1px solid #ccc; /* Optional: Add a border */
   border-radius: 5px; /* Optional: Add rounded corners */
 }
 
 .image-caption {
-  font-size: 14px; /* Adjust the font size as needed */
+  font-size: 18px; /* Adjust the font size as needed */
   color:black; /* Change this to any color you like */
-  margin-top: 5px; /* Space between image and text */
+  margin-top: 10px; /* Space between image and text */
 }
 
 
