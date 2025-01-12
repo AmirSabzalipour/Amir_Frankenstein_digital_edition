@@ -163,6 +163,26 @@ h1 {
   width: 1400px;      /* Fixed width of 500px */
   height: 250px;     /* Fixed height of 300px */
   object-fit: cover; 
+}
 
+.footer {
+  background-color: #f8f9fa; /* Light background for the footer */
+  padding: 20px; /* Padding around the content */
+  text-align: center; /* Center the text */
+  margin-top: 50px; /* Adds space between the footer and the rest of the page */
+  border-top: 1px solid #ccc; /* Optional: adds a top border */
+}
 
+.footer-contact {
+  font-size: 14px; /* Smaller text size */
+  color: #555; /* Dark gray color for the text */
+}
+
+.footer a {
+  color: #007bff; /* Blue color for the email link */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Adds underline on hover */
 }
