@@ -59,26 +59,23 @@ h1 {
 
 .homepage-intro {
   font-size: 24px; /* Adjust the font size as needed */
-  color:dimgray; /* Change this to any color you like */
-  padding: 20px 20px 20px 20px; /* top right bottom left */
-  font-family: 'Arial', sans-serif; /* Change this to any font you like */
-  background-color:red; /* Optional: Add a background color */
-  border-radius: 35px; /* Optional: Add rounded corners */
-  width: 100%; /* Adjust the width as needed */
-  max-width: 100%; /* Ensure it doesn't exceed the container's width */
-  margin: 50px auto; /* Center the paragraph */
-  line-height: 1.6; 
+  color: dimgray; /* Text color */
+  padding: 20px; /* Uniform padding for each paragraph */
+  font-family: 'Arial', sans-serif; /* Font style */
+  background-color: red; /* Background color */
+  border-radius: 35px; /* Rounded corners */
+  width: 100%; /* Full width */
+  max-width: 100%; /* Ensure it doesn't exceed container width */
+  margin: 0 auto 20px; /* Center the paragraphs with a bottom margin */
+  line-height: 1.6; /* Increase line spacing */
 }
 
-.homepage-intro p {
-  font-size: 24px; /* Adjust the font size as needed */
-  color: dimgray; /* Change this to any color you like */
-  padding: 10px 20px; /* Padding around the text */
-  font-family: 'Arial', sans-serif; /* Change the font */
-  background-color:red; /* Optional: Background color */
-  border-radius: 35px; /* Optional: Rounded corners */
-  width: 100%; /* Full width */
-  line-height: 1.6; /* Increase the space between lines */
+.homepage-intro i {
+  font-style: italic; /* Make text in <i> italic */
+}
+
+.homepage-intro br {
+  margin-bottom: 0; /* Remove extra space from <br> */
 }
 
 
