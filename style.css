@@ -102,7 +102,7 @@ h1 {
 }
 
 .image-caption {
-  font-size: 16px; /* Adjust the font size as needed */
+  font-size: 20px; /* Adjust the font size as needed */
   color: gray; /* Change this to any color you like */
   margin-top: 8px; /* Space between image and text */
   font-family: 'Cambria', serif; /* Font style */
