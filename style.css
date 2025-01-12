@@ -1,70 +1,52 @@
 /* Global styles */
 body {
   background-color: #D3D3D3;
-  margin: 20px 5%;
+  margin: 20px auto;
   font-family: 'Cambria', serif;
-}
-
-/* Home page container */
-.homepage {
-  background-color: red;
-  margin: 5% auto;
-  font-family: 'Cambria', serif;
-}
-
-/* Starter template */
-.starter-template {
-  padding: 2rem 1rem;
-  text-align: center;
-}
-
-/* Images */
-img {
   max-width: 100%;
-  height: auto;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Paragraphs */
-p {
-  text-indent: 10px;
+/* Header image adjustments */
+.top-image {
+  width: 100%; /* Ensures it covers the full width */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the image scales well */
 }
 
+/* Homepage intro */
 .homepage-intro {
   font-size: 1.25rem;
   color: black;
   padding: 0;
   font-family: 'Cambria', serif;
-  border-radius: 0;
   width: 90%;
-  max-width: 80rem; /* Ensure a max width for large screens */
+  max-width: 60rem; /* Limit max width */
   margin: 0 auto 2rem;
   line-height: 1.6;
   text-align: justify;
 }
 
-.homepage-intro p {
-  margin-bottom: 1rem;
-}
-
-.homepage-intro br {
-  margin-bottom: 0.5rem;
-}
-
 /* Image Container */
 .image-container {
   display: flex;
-  flex-wrap: wrap; /* Ensure images wrap on smaller screens */
-  justify-content: center;
-  gap: 2rem; /* Add spacing between images */
-  margin: 2rem auto; /* Adjust margins for responsiveness */
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  justify-content: flex-start; /* Aligns images to the left */
+  align-items: flex-start;
+  gap: 2rem; /* Adds spacing between images */
+  margin: 2rem auto; /* Centers the container vertically */
+  width: 100%; /* Ensures full-width layout */
+  padding: 0 2rem; /* Adds horizontal padding */
 }
 
 .image-item {
+  flex: 1 1 calc(33% - 2rem); /* Adjust image size for a grid layout */
+  max-width: 15rem; /* Prevent overly large images */
   text-align: center;
 }
 
 .mary-photo, .percy-photo {
-  max-width: 15rem; /* Use relative units */
+  max-width: 100%;
   height: auto;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
@@ -77,52 +59,22 @@ p {
   font-family: 'Cambria', serif;
 }
 
-/* Table */
-.table-text {
-  font-size: 1.125rem;
-  font-family: 'Cambria', serif;
-  width: 100%;
-  table-layout: fixed;
-  margin: 0 auto;
-}
-
-.table-title {
-  font-size: 1.5rem;
-  font-weight: normal;
-  color: #333;
-  text-align: center;
-  margin: 2rem auto 1rem;
-  font-family: 'Cambria', serif;
-}
-
 /* Navigation Bar */
 .navbar {
   border-radius: 1.5rem;
   background-color: red;
 }
 
-/* Navigation Links */
 .navbar .nav-link {
   font-size: 1.25rem;
 }
 
-.navbar .dropdown-menu .dropdown-item {
-  font-size: 1rem;
-}
-
-.navbar-brand {
-  font-family: 'Calibri', sans-serif;
-  font-weight: bold;
-  color: gray;
-}
-
-/* Top Image */
-.top-image {
-  margin: 1rem auto;
-  width: 100%;
-  max-width: 80rem;
-  height: auto;
-  object-fit: cover;
+/* Table */
+.table-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem auto 1rem;
+  color: #333;
 }
 
 /* Footer */
@@ -134,64 +86,56 @@ p {
   border-top: 1px solid #ccc;
 }
 
-.footer-contact {
-  font-size: 0.875rem;
-  color: #555;
-}
+/* Responsive Design */
 
-.footer a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
-
-/* Utilities for rows and columns */
-.row {
-  margin: 0 auto;
-}
-
-.col {
-  margin: 0 1rem;
-}
-
-/* Responsive Media Queries */
-@media (max-width: 768px) {
+/* Laptops and smaller screens */
+@media (max-width: 1024px) {
   .homepage-intro {
     font-size: 1rem;
     width: 95%;
   }
 
-  .table-title {
-    font-size: 1.25rem;
-  }
-
   .image-container {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align images */
   }
 
-  .mary-photo, .percy-photo {
-    max-width: 12rem;
+  .image-item {
+    max-width: 80%; /* Limit width on smaller screens */
   }
 }
 
+/* Tablets */
+@media (max-width: 768px) {
+  .homepage-intro {
+    font-size: 0.9rem;
+  }
+
+  .image-container {
+    gap: 1rem; /* Reduce spacing between images */
+  }
+
+  .mary-photo, .percy-photo {
+    max-width: 90%; /* Adjust image size for smaller screens */
+  }
+
+  .table-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Phones */
 @media (max-width: 576px) {
   .navbar .nav-link {
     font-size: 1rem;
   }
 
-  .table-text {
-    font-size: 1rem;
-  }
-
   .homepage-intro {
     font-size: 0.875rem;
+    padding: 0 1rem;
   }
 
-  h1 {
-    font-size: 1.5rem;
+  .mary-photo, .percy-photo {
+    max-width: 100%;
   }
 }
