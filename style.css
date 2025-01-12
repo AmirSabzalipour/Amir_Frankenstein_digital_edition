@@ -124,3 +124,13 @@ h1 {
   font-size: 18px; /* Change this to your desired font size */
   font-family: 'Arial', sans-serif; /* Change this to your desired font family */
 }
+
+/* Increase font size of navbar items */
+.navbar .nav-link {
+  font-size: 18px; /* Adjust this value as needed */
+}
+
+/* Optional: Change font size for dropdown items */
+.navbar .dropdown-menu .dropdown-item {
+  font-size: 18px; /* Adjust for dropdown items */
+}
