@@ -141,6 +141,7 @@ h1 {
 
 /* Optional: Change font size for dropdown items */
 .navbar .dropdown-menu .dropdown-item {
-  font-size: 20px; /* Adjust for dropdown items */
+  font-size: 24px; /* Adjust for dropdown items */
+  font-family: 'Arial', sans-serif; 
 }
 
