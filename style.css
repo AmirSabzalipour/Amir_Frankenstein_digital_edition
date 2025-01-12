@@ -94,3 +94,13 @@ h1 {
   color:black; /* Change this to any color you like */
   margin-top: 5px; /* Space between image and text */
 }
+
+
+.table-text {
+  font-size: 14px; /* Change this to your desired font size */
+  font-family: 'Arial', sans-serif; /* Change this to your desired font family */
+}
+.reference-text {
+  font-size: 12px; /* Change this to your desired font size */
+  font-family: 'Times New Roman', serif; /* Change this to your desired font family */
+}
