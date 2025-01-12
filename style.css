@@ -24,19 +24,16 @@ h1 {
   font-family: 'Cambria', serif; /* Font style */
 }
 
-
-
-
-/* For phones (small screens) */
-@media (max-width: 576px) {
-  .top-image {
-    height: auto; /* Maintain the original aspect ratio on smaller screens */
+.top-image {
+  height: auto; /* Maintain the original aspect ratio on smaller screens */
   padding-top: 20px;    /* Top padding */
   padding-left: 5px;   /* Left padding */
   padding-bottom: 50px; /* Bottom padding */
   padding-right: 50px;  /* Right padding */
   }
-}
+
+
+
 
 
 /* Homepage intro */
@@ -122,6 +119,23 @@ p {
   margin: 10px 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Design */
 
 /* Laptops and smaller screens */
@@ -173,5 +187,17 @@ p {
 
   .mary-photo, .percy-photo {
     max-width: 100%;
+  }
+}
+
+
+/* For phones (small screens) */
+@media (max-width: 576px) {
+  .top-image {
+  height: auto; /* Maintain the original aspect ratio on smaller screens */
+  padding-top: 1px;    /* Top padding */
+  padding-left: 1px;   /* Left padding */
+  padding-bottom: 1px; /* Bottom padding */
+  padding-right: 1px;  /* Right padding */
   }
 }
