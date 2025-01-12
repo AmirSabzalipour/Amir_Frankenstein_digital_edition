@@ -120,7 +120,7 @@ h1 {
   width: 100%; /* Full width of the container */
   margin: 0 auto; /* Center the content */
   padding: 20px; /* Add padding around the content */
-  background-color: #add8e6; /* Light blue background color */
+  background-color: gray; /* Light blue background color */
 }
 
 /* Adjust font type and size */
@@ -129,6 +129,8 @@ h1 {
   font-size: 18px; /* Set a default font size */
   line-height: 1.6; /* Increase line height for better readability */
   margin-bottom: 15px; /* Add space between paragraphs */
+  color: #333; /* Change the color as needed */
+
 }
 
 /* Italic text styling */
