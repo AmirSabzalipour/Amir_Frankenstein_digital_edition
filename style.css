@@ -104,29 +104,29 @@ h1 {
   font-size: 16px; /* Adjust the font size as needed */
   color:gray; /* Change this to any color you like */
   margin-top: 8px; /* Space between image and text */
-  font-family: 'Calibri', sans-serif;
+  font-family: 'Cambria', serif; /* Font style */
 }
 
 
 .table-text {
-  font-size: 20px; /* Change this to your desired font size */
-  font-family: 'Calibri', sans-serif; /* Change this to your desired font family */
+  font-size: 18px; /* Change this to your desired font size */
+  font-family: 'Cambria', serif;/* Change this to your desired font family */
 }
 
 
 .table-title {
-  font-size: 30px; /* Adjust the font size as needed */
+  font-size: 24px; /* Adjust the font size as needed */
   font-weight: normal; /* Make the title bold */
   color: #333; /* Change the color as needed */
   text-align: center; /* Center align the title */
   margin-bottom: 20px; /* Add some space below the title */
-  font-family: 'Calibri', sans-serif; 
+  font-family: 'Cambria', serif; 
   margin-top: 500px; 
 }
 
 .reference-text {
   font-size: 18px; /* Change this to your desired font size */
-  font-family: 'Calibri', sans-serif; /* Change this to your desired font family */
+   font-family: 'Cambria', serif; /* Change this to your desired font family */
 }
 
 
