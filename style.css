@@ -58,7 +58,7 @@ h1 {
 
 
 .homepage-intro {
-  font-size: 21px; /* Adjust the font size as needed */
+  font-size: 20px; /* Adjust the font size as needed */
   color:dimgray; /* Change this to any color you like */
   padding: 20px 20px 20px 20px; /* top right bottom left */
   font-family: 'Baufra', sans-serif; /* Change this to any font you like */
@@ -83,7 +83,7 @@ h1 {
 }
 
 .mary-photo, .percy-photo {
-  max-width: 300px; /* Control the size of the images */
+  max-width: 270px; /* Control the size of the images */
   height: auto;
   border: 1px solid #ccc; /* Optional: Add a border */
   border-radius: 5px; /* Optional: Add rounded corners */
