@@ -73,7 +73,7 @@ h1 {
   display: flex;
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
-  margin-right: -600px; /* Adjust the margin as needed */
+  margin-right: -800px; /* Adjust the margin as needed */
   margin-top: -700px;
 }
 
