@@ -16,9 +16,14 @@ body {
 
 h1 {
   font-size: 40px;
-  padding: 80px; /* Same padding on all sides */
-  color: #333; /* Change this to any color you like */
-  font-family: 'Cambria', serif; /* Font style */}
+  padding-top: 80px;    /* Top padding */
+  padding-left: 80px;   /* Left padding */
+  padding-bottom: 80px; /* Bottom padding */
+  padding-right: 80px;  /* Right padding */
+  color: #333;          /* Color of the text */
+  font-family: 'Cambria', serif; /* Font style */
+}
+
 
 
 
