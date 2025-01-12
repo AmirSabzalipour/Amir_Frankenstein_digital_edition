@@ -154,5 +154,10 @@ h1 {
 }
 
 .top-image {
-  padding-top: 20px; /* Adjust the padding as needed */
+  padding-top: 45px; /* Adjust the padding as needed */
+  width: 1400px;      /* Fixed width of 500px */
+  height: 300px;     /* Fixed height of 300px */
+  object-fit: cover; 
+
+
 }
