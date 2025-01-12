@@ -86,6 +86,7 @@ h1 {
   align-items: center; /* Center the items horizontally */
   margin-top: -750px; /* Adjust top margin as needed */
   margin-bottom: 100px; /* Add space below the images */
+  margin-left: 300px;
 }
 
 .image-item {
