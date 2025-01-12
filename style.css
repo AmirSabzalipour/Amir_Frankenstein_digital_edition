@@ -73,7 +73,7 @@ h1 {
   display: flex;
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
-  margin-right: -450px; /* Adjust the margin as needed */
+  margin-right: -600px; /* Adjust the margin as needed */
   margin-top: -170px;
 }
 
@@ -83,7 +83,7 @@ h1 {
 }
 
 .mary-photo, .percy-photo {
-  max-width: 200px; /* Control the size of the images */
+  max-width: 300px; /* Control the size of the images */
   height: auto;
   border: 1px solid #ccc; /* Optional: Add a border */
   border-radius: 5px; /* Optional: Add rounded corners */
