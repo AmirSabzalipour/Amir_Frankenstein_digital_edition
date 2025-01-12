@@ -67,7 +67,7 @@ h1 {
   text-align: justify; /* Justify text for a cleaner, aligned look */
 }
 .homepage-intro p {
-  margin-bottom: 100px; /* Adjust this value to control the spacing */
+  margin-bottom: 10px; /* Adjust this value to control the spacing */
 }
 
 .homepage-intro i {
