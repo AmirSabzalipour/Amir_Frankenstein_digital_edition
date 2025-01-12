@@ -67,6 +67,7 @@ h1 {
   width: 100%; /* Adjust the width as needed */
   max-width: 100%; /* Ensure it doesn't exceed the container's width */
   margin: 50px auto; /* Center the paragraph */
+  line-height: 1.6; 
 }
 
 .image-container {
