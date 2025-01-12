@@ -113,3 +113,25 @@ h1 {
   margin-bottom: 20px; /* Add some space below the title */
   font-family: 'Arial', sans-serif; 
 }
+
+
+.welcome {
+  display: block; /* Ensures content flows vertically */
+  width: 100%; /* Full width of the container */
+  margin: 0 auto; /* Center the content */
+  padding: 20px; /* Add padding around the content */
+  background-color: #add8e6; /* Light blue background color */
+}
+
+/* Adjust font type and size */
+.welcome p {
+  font-family: 'Arial', sans-serif; /* Change the font to Arial */
+  font-size: 18px; /* Set a default font size */
+  line-height: 1.6; /* Increase line height for better readability */
+  margin-bottom: 15px; /* Add space between paragraphs */
+}
+
+/* Italic text styling */
+.welcome i {
+  font-style: italic; /* Ensure italic text is styled correctly */
+}
