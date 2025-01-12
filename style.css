@@ -14,6 +14,13 @@ body {
   object-fit: cover; /* Ensures the image scales well */
 }
 
+h1 {
+  font-size: 40px;
+  padding: 20px; /* Same padding on all sides */
+  color: #333; /* Change this to any color you like */
+  font-family: 'Cambria', serif; /* Font style */}
+
+
 
 /* For phones (small screens) */
 @media (max-width: 576px) {
