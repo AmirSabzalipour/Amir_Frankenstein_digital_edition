@@ -35,11 +35,6 @@ h1 {
 }
 
 
-
-
-
-
-
 /* Homepage intro */
 .homepage-intro {
   font-size: 1.25rem;
@@ -110,6 +105,17 @@ h1 {
   text-align: center;
   margin-top: 2rem;
   border-top: 1px solid #ccc;
+}
+
+
+
+p {
+  font-family: 'Cambria', serif;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #4a4a4a;
+  margin: 10px 0;
 }
 
 /* Responsive Design */
