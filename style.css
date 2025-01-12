@@ -1,11 +1,10 @@
 body {
   background-color:White; /* Very light olive background color */ 
-  margin-top: 50px;    /* Top margin */
+  margin-top: 20px;    /* Top margin */
   margin-right: 30px;  /* Right margin */
   margin-bottom: 50px; /* Bottom margin */
   margin-left: 40px;   /* Left margin */
-  font-family: Calibri, sans-serif; /* Change this to any font you like */
-}
+  font-family: 'Cambria', serif; /* Font style */}
 
 .homepage {
   background-color: lightgray; /* Change this to any color you like */
@@ -13,7 +12,7 @@ body {
   margin-right: 30px;  /* Right margin */
   margin-bottom: 50px; /* Bottom margin */
   margin-left: 40px;   /* Left margin */
-  font-family: Calibri, sans-serif; /* Change this to any font you like */
+  font-family: 'Cambria', serif; /* Font style */
 }
 
 
@@ -53,16 +52,15 @@ h1 {
   font-size: 40px;
   padding: 20px; /* Same padding on all sides */
   color: #333; /* Change this to any color you like */
-  font-family: 'Calibri', sans-serif; /* Change this to any font you like */
-}
+  font-family: 'Cambria', serif; /* Font style */}
 
 
 .homepage-intro {
   font-size: 14px; /* Adjust the font size as needed */
   color:black; /* Text color */
   padding: 10px; /* Increased padding for a more spacious look */
-  font-family: 'Calibri', sans-serif; /* Font style */
-  border-radius: 0px; /* Rounded corners */
+  font-family: 'Cambria', serif; /* Font style */
+    border-radius: 0px; /* Rounded corners */
   width: 90%; /* Full width */
   max-width: 100%; /* Ensure it doesn't exceed container width */
   margin: 0 auto 20px; /* Center the paragraphs with a bottom margin */
@@ -86,8 +84,8 @@ h1 {
   display: flex;
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
-  margin-right: -600px; /* Adjust the margin as needed */
-  margin-top: -300px;
+  margin-right: -500px; /* Adjust the margin as needed */
+  margin-top: -800px;
 }
 
 .image-item {
@@ -96,7 +94,7 @@ h1 {
 }
 
 .mary-photo, .percy-photo {
-  max-width: 220px; /* Control the size of the images */
+  max-width: 190px; /* Control the size of the images */
   height: auto;
   border: 1px solid #ccc; /* Optional: Add a border */
   border-radius: 5px; /* Optional: Add rounded corners */
