@@ -81,15 +81,15 @@ h1 {
 
 .image-container {
   display: flex;
-  flex-direction: row; /* Place items in a row */
-  justify-content: flex-end; /* Align items to the right */
-  margin-right: -430px; /* Adjust the margin as needed */
-  margin-top: -750px;
-  margin-bottom: 100px;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center the items vertically */
+  align-items: center; /* Center the items horizontally */
+  margin-top: -750px; /* Adjust top margin as needed */
+  margin-bottom: 100px; /* Add space below the images */
 }
 
 .image-item {
-  margin-left: 40px; /* Space between images */
+  margin-bottom: 20px; /* Space between images */
   text-align: center; /* Center text below images */
 }
 
@@ -102,7 +102,7 @@ h1 {
 
 .image-caption {
   font-size: 16px; /* Adjust the font size as needed */
-  color:gray; /* Change this to any color you like */
+  color: gray; /* Change this to any color you like */
   margin-top: 8px; /* Space between image and text */
   font-family: 'Cambria', serif; /* Font style */
 }
