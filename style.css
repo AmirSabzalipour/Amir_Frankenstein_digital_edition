@@ -120,7 +120,7 @@ h1 {
   width: 100%; /* Full width of the container */
   margin: 0 auto; /* Center the content */
   padding: 20px; /* Add padding around the content */
-  background-color: lightslategray; /* Light blue background color */
+  background-color: blue; /* Light blue background color */
 }
 
 /* Adjust font type and size */
