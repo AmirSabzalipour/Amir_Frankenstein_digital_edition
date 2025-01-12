@@ -12,6 +12,10 @@ body {
   width: 100%; /* Ensures it covers the full width */
   height: 280px; /* Maintains aspect ratio */
   object-fit: cover; /* Ensures the image scales well */
+  padding-top: 10px;    /* Top padding */
+  padding-left: 5px;   /* Left padding */
+  padding-bottom: 20px; /* Bottom padding */
+  padding-right: 10px;
 }
 
 h1 {
@@ -24,13 +28,7 @@ h1 {
   font-family: 'Cambria', serif; /* Font style */
 }
 
-.top-image {
-  height: auto; /* Maintain the original aspect ratio on smaller screens */
-  padding-top: 20px;    /* Top padding */
-  padding-left: 5px;   /* Left padding */
-  padding-bottom: 50px; /* Bottom padding */
-  padding-right: 50px;  /* Right padding */
-  }
+
 
 
 
