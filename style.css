@@ -108,10 +108,12 @@ h1 {
 
 
 .table-text {
-  font-size: 18px; /* Change this to your desired font size */
-  font-family: 'Cambria', serif;/* Change this to your desired font family */
+  font-size: 18px; /* Font size */
+  font-family: 'Cambria', serif; /* Font family */
+  width: 100%; /* Make table full width */
+  table-layout: fixed; /* Fix column layout */
+  margin: 0 auto; /* Center the table horizontally */
 }
-
 
 .table-title {
   font-size: 24px; /* Adjust the font size as needed */
@@ -119,8 +121,8 @@ h1 {
   color: #333; /* Change the color as needed */
   text-align: center; /* Center align the title */
   margin-bottom: 20px; /* Add some space below the title */
-  font-family: 'Cambria', serif; 
-  margin-top: 500px; 
+  font-family: 'Cambria', serif;
+  margin-top: 50px; /* Adjust this value to move the title up or down */
 }
 
 .reference-text {
