@@ -83,8 +83,9 @@ h1 {
   display: flex;
   flex-direction: row; /* Place items in a row */
   justify-content: flex-end; /* Align items to the right */
-  margin-right: -630px; /* Adjust the margin as needed */
+  margin-right: -430px; /* Adjust the margin as needed */
   margin-top: -750px;
+  margin-bottom: 100px;
 }
 
 .image-item {
