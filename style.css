@@ -210,12 +210,10 @@ p {
 
 .add {
   font-family: 'Avenir Next LT Pro';
-  color: blue;
-}
+  }
 
 .del {
-  color:darkred;
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 .italic {
