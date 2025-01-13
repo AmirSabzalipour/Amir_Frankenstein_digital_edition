@@ -339,19 +339,19 @@ button:hover {
 .page-navigation {
   display: flex;
   position: absolute;  
-  top: 10px;           /* Distance from the top */
+  top: 20px;           /* Distance from the top */
   right: 20px;         /* Distance from the right side */
   gap: 10px;
  }
 
 #prev-page,
 #next-page {
-  background-color: orange;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
+  background-color:black;
+  color: white;
+  border-radius: 10px;
   padding: 6px 15px;
   margin: 10px;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
