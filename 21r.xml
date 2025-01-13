@@ -20,12 +20,14 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <p class="special-text">Draft of Frankenstein, 1816. | Bodleian MS. 
-               Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
-               bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
-               (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
-               from the beginning to the end of Volume I, concluding just as the Creature is 
-               about to begin his tale to Victor. </p>
+            <p class="special-text">
+  Draft of Frankenstein, 1816. | Bodleian MS. Abinger c.56 (formerly designated Dep. 477/1) consists of 62 leaves originally 
+  bound in Notebook A, one of two now disbound notebooks in which Mary W. Shelley 
+  (MWS) drafted the two-volume version of Frankenstein. The draft in c.56 runs 
+  from the beginning to the end of Volume I, concluding just as the Creature is 
+  about to begin his tale to Victor.
+</p>
+
          </sourceDesc>
       </fileDesc>
    </teiHeader>
