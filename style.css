@@ -83,7 +83,7 @@ h1 {
 .navbar {
   border-radius: 1.5rem;
   background-color: red;
-  margin: 0 20px; /* 0px top/bottom, 20px left/right */
+  margin: 0 25px; /* 0px top/bottom, 20px left/right */
 }
 
 .navbar .nav-link {
