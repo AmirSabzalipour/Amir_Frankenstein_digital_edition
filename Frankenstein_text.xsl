@@ -95,11 +95,10 @@
 </xsl:template> -->
 
 <xsl:template match="tei:add[@place='supralinear']">
-    <span class="supraAdd" style="position: relative; margin-left: -5px; top: -1.6em; color: inherit;" hand="{@hand}">
+    <span class="supraAdd"  hand="{@hand}"  style="position: relative; margin-left: -270px; top: -1.6em; color: inherit;">
         <xsl:apply-templates/>
     </span>
 </xsl:template>
-
 
 
 
