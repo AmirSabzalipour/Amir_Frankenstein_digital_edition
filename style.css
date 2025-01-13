@@ -53,11 +53,11 @@ h1 {
   flex-wrap: wrap; /* Allows items to wrap on smaller screens */
   justify-content: flex-start; /* Aligns images to the left */
   align-items: flex-start;
-  gap: 2rem; /* Adds spacing between images */
+  gap: 5rem; /* Adds spacing between images */
   margin: 2rem auto; /* Centers the container vertically */
   width: 100%; /* Ensures full-width layout */
   padding: 0 2rem; /* Adds horizontal padding */
-  margin-left: 10rem; /* Adds 3rem of left margin */
+  margin-left: 14rem; /* Adds 3rem of left margin */
 }
 
 .image-item {
