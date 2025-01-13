@@ -46,7 +46,7 @@
     <div class="container-fluid">
       <h1>Frankenstein Volume I Draft in Chapter Sequence</h1>
       <span style="visibility:hidden" id='page'>44</span>
-      <h2 id='page'>21r</h2> <!-- you can style this h2 element differently, but you should keep the id="page" and the elements value *unchanged* -->
+      <h2 id='folio'>21r</h2> <!-- you can style this h2 element differently, but you should keep the id="folio" and the elements value *unchanged* -->
       <div id="stats"></div>
       <div class="page-navigation">
         <button id="prev-page">Previous Page</button>
@@ -74,7 +74,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <script>
-      document.getElementById('page').innerText = 'page: ' + document.location.pathname.split('/').pop().replace('.html', '');
+      document.getElementById('folio').innerText = 'Folio: ' + document.location.pathname.split('/').pop().replace('.html', '');
     </script>
   </body>
 </html>
