@@ -82,9 +82,9 @@ h1 {
 }
 
 .table-text {
-  font-size: 16px; /* Font size */
+  font-size: 14px; /* Font size */
   font-family: 'Cambria', serif; /* Font family */
-  width: 100%; /* Make table full width */
+  width: 90%; /* Make table full width */
   table-layout: fixed; /* Fix column layout */
   margin: 0 auto; /* Center the table horizontally */
 }
