@@ -469,7 +469,10 @@ button:hover {
   text-align: center;
   margin: 2em 0;
   position: relative;
+  display: flex;
+  align-items: center;
 }
+
 
 .chapter-head .page-number {
   position: absolute;
