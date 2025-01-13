@@ -338,11 +338,11 @@ button:hover {
 
 .page-navigation {
   display: flex;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 650px;
+  position: absolute;  
+  top: 10px;           /* Distance from the top */
+  right: 20px;         /* Distance from the right side */
   gap: 10px;
-}
+ }
 
 #prev-page,
 #next-page {
