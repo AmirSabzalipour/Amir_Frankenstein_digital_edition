@@ -81,6 +81,13 @@ h1 {
   font-family: 'Cambria', serif;
 }
 
+.table-text {
+  font-size: 18px; /* Font size */
+  font-family: 'Cambria', serif; /* Font family */
+  width: 100%; /* Make table full width */
+  table-layout: fixed; /* Fix column layout */
+  margin: 0 auto; /* Center the table horizontally */
+}
 
 .table-title {
   font-size: 1.5rem;
