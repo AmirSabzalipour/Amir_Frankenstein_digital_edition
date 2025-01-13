@@ -328,19 +328,22 @@ button:hover {
 }
 
 #folio {
-  color: blue;
-  position: relative;
-  top: 200px;
-  left: 660px;
-  font-size: 16px;
-  font-weight: bold;
+  color:gray;
+  display: flex;
+  position: absolute;  
+  top: 200px;           /* Distance from the top */
+  left: 200px;  
+  font-size: 20px;
+  font-family: 'Cambria', serif;
+  font-weight: normal;
 }
 
 .page-navigation {
   display: flex;
-  position: absolute;  
-  top: 60px;           /* Distance from the top */
+  position: absolute;  /* or 'fixed' depending on if you want it to stay in place on scroll */
+  top: 10px;           /* Distance from the top */
   right: 20px;         /* Distance from the right side */
+  gap: 10px;       /* Distance from the right side */
   gap: 10px;
  }
 
