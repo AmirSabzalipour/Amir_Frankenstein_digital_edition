@@ -345,7 +345,7 @@ button:hover {
 .page-navigation {
   display: flex;
   position: absolute;  
-  top: 250px;           /* Distance from the top */
+  top: 350px;           /* Distance from the top */
   right: 30px;         /* Distance from the right side */
   gap: 10px;
  }
@@ -462,9 +462,7 @@ button:hover {
   }
 }
 
-.center {
-  text-align: center;
-}
+
 .chapter-head {
   text-align: center;
   margin: 2em 0;
