@@ -81,11 +81,27 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="tei:add[@place='supralinear']">
+    <!-- <xsl:template match="tei:add[@place='supralinear']">
         <span class="supraAdd" hand="{@hand}">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
+    </xsl:template> -->
+
+
+<!-- <xsl:template match="tei:add[@place='supralinear']">
+    <span style="position: relative; margin-left: -270px; top: -1.6em; color: inherit;">
+        <xsl:apply-templates/>
+    </span>
+</xsl:template> -->
+
+<xsl:template match="tei:add[@place='supralinear']">
+    <span class="supraAdd" style="position: relative; margin-left: -270px; top: -1.6em; color: inherit;" hand="{@hand}">
+        <xsl:apply-templates/>
+    </span>
+</xsl:template>
+
+
+
 
     <xsl:template match="tei:add[@place='marginleft']">
         <span class="marginAdd" hand="{@hand}" style="font-style: italic;">
