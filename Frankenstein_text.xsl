@@ -56,25 +56,6 @@
     </xsl:template>
 
     <xsl:template match="tei:hi[@rend='underline']">
-    <span class="no-underline" style="text-decoration: none;">
-        <xsl:apply-templates/>
-    </span>
-</xsl:template>
-
-<xsl:template match="tei:hi[@rend='supralinear' and @rend='underline']">
-    <!-- Apply superscript style but remove underline -->
-    <span class="supraAdd" style="vertical-align: super; text-decoration: none;">
-        <xsl:apply-templates/>
-    </span>
-</xsl:template>
-
-
-
-
-
-
-
-    <xsl:template match="tei:hi[@rend='underline']">
         <span class="underline">
             <xsl:apply-templates/>
         </span>
@@ -100,26 +81,11 @@
         </div>
     </xsl:template>
 
-    <!-- <xsl:template match="tei:add[@place='supralinear']">
+    <xsl:template match="tei:add[@place='supralinear']">
         <span class="supraAdd" hand="{@hand}">
             <xsl:apply-templates/>
         </span>
-    </xsl:template> -->
-
-
-<!-- <xsl:template match="tei:add[@place='supralinear']">
-    <span style="position: relative; margin-left: -270px; top: -1.6em; color: inherit;">
-        <xsl:apply-templates/>
-    </span>
-</xsl:template> -->
-
-<xsl:template match="tei:add[@place='supralinear']">
-    <span class="supraAdd"  hand="{@hand}"  style="position: relative; margin-left: -100px; top: -1.6em; padding-right: -47px; ">
-        <xsl:apply-templates/>
-    </span>
-</xsl:template>
-
-
+    </xsl:template>
 
     <xsl:template match="tei:add[@place='marginleft']">
         <span class="marginAdd" hand="{@hand}" style="font-style: italic;">
@@ -138,17 +104,6 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-
-
-<xsl:template match="tei:del[@type='crossedOut']">
-    <span class="del" hand="{@hand}" 
-          style="font-style: italic; text-decoration: line-through; color: gray;">
-        <xsl:apply-templates/>
-    </span>
-</xsl:template>
-
-
-
 
     <xsl:template match="tei:list">
         <span class="list" hand="{@hand}">
