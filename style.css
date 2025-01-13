@@ -304,7 +304,7 @@ a:active {
   width: 2em;
   height: 2em;
   line-height: 1.5em;
-  border: 3px solid rgb(49, 46, 46);
+  border: 3px solid lightslategray;
   border-radius: 50%;
   text-align: center;
   font-size: 1.1em;
