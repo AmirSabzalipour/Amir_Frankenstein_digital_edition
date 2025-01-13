@@ -461,3 +461,14 @@ button:hover {
 .center {
   text-align: center;
 }
+.chapter-head {
+  text-align: center;
+  margin: 2em 0;
+  position: relative;
+}
+
+.chapter-head .page-number {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
