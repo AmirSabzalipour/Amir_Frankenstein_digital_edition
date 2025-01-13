@@ -57,7 +57,7 @@ h1 {
   margin: 2rem auto; /* Centers the container vertically */
   width: 100%; /* Ensures full-width layout */
   padding: 0 2rem; /* Adds horizontal padding */
-  margin-left: 5rem; /* Adds 3rem of left margin */
+  margin-left: 10rem; /* Adds 3rem of left margin */
 }
 
 .image-item {
