@@ -313,20 +313,14 @@ a:active {
 }
 
 button {
-  display: flex;
-  position: absolute;  
-  top: 500px;           /* Distance from the top */
-  right: 40px;  
-  font-size: 20px;
-  font-family: 'Cambria', serif;
-  font-weight: normal;
   padding: 10px 15px;
   margin: 5px;
+  font-size: 20px;
   cursor: pointer;
-  background-color: lightgreen;
-  color:black;
+  background-color: black;
+  color:white;
   border: none;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 button:hover {
@@ -386,7 +380,7 @@ button:hover {
   padding: 0.5rem 1rem; /* Adds some padding around the links */
   margin: 0 0.5rem; /* Adds spacing between links */
   display: inline-block; /* Makes links appear inline */
- 
+  text-decoration: none;
 }
 
 /* Hover effect for nav links */
