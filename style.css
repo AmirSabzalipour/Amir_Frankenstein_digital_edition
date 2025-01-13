@@ -80,18 +80,7 @@ h1 {
   font-family: 'Cambria', serif;
 }
 
-/* Navigation Bar */
-.navbar {
-  border-radius: 1.5rem;
-  background-color: red;
-  margin: 0 25px; /* 0px top/bottom, 20px left/right */
-}
 
-.navbar .nav-link {
-  font-size: 1.4rem;
-}
-
-/* Table */
 .table-title {
   font-size: 1.5rem;
   text-align: center;
@@ -118,20 +107,6 @@ p {
   color: #4a4a4a;
   padding-bottom: 20px; /* Adds 20px space at the bottom inside the <p> element */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -383,4 +358,99 @@ button:hover {
 #prev-page:hover,
 #next-page:hover {
   background-color: orange;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  border-radius: 1.5rem;
+  background-color: red;
+  margin: 0 25px; /* 0px top/bottom, 25px left/right */
+  padding: 10px 20px; /* Padding inside navbar */
+}
+
+.navbar .nav-link {
+  font-size: 1.4rem;
+  text-decoration: none; /* Removes underline from all nav links */
+  color: white; /* Sets white color for text */
+  padding: 0.5rem 1rem; /* Adds some padding around the links */
+  margin: 0 0.5rem; /* Adds spacing between links */
+  display: inline-block; /* Makes links appear inline */
+}
+
+/* Hover effect for nav links */
+.navbar .nav-link:hover {
+  color: #fcf762; /* Changes text color to yellow on hover */
+  text-decoration: none; /* Ensures no underline on hover */
+}
+
+/* Active state for links */
+.navbar .nav-link.active {
+  color: #fcf762; /* Changes active link color to yellow */
+  font-weight: bold; /* Makes active link bold */
+}
+
+/* Navbar container */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Centers links horizontally */
+  align-items: center; /* Aligns links vertically */
+  list-style: none; /* Removes list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar brand (logo or title) */
+.navbar-brand {
+  font-size: 2rem;
+  color: white; /* Sets the brand color to white */
+  text-decoration: none; /* No underline */
+  margin-right: 2rem; /* Adds space between the brand and links */
+}
+
+/* Hover effect for navbar brand */
+.navbar-brand:hover {
+  color: #fcf762; /* Changes color of brand on hover */
+}
+
+/* Optional: Padding and margin for positioning */
+.navbar-left {
+  margin-left: 2rem; /* Adds left margin */
+}
+
+/* Responsive design adjustments */
+
+/* Laptops and smaller screens */
+@media (max-width: 1024px) {
+  .navbar .nav-link {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stacks links vertically */
+    align-items: center; /* Centers the links */
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 1.1rem; /* Smaller font size for tablets */
+  }
+
+  .navbar-nav {
+    gap: 1rem; /* Reduces gap between links */
+  }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+  .navbar .nav-link {
+    font-size: 1rem; /* Font size adjusted for phones */
+  }
+
+  .navbar-nav {
+    gap: 0.5rem; /* Reduces gap between links further */
+  }
 }
