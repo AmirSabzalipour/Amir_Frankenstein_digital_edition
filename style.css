@@ -339,7 +339,7 @@ button:hover {
 .page-navigation {
   display: flex;
   position: absolute;  
-  top: 20px;           /* Distance from the top */
+  top: 60px;           /* Distance from the top */
   right: 20px;         /* Distance from the right side */
   gap: 10px;
  }
