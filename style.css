@@ -302,7 +302,7 @@ a:active {
 .circled {
   display: inline-block;
   width: 1em;
-  height: 1em;
+  height: 2em;
   line-height: 1.5em;
   border: 3px solid gray;
   border-radius: 50%;
@@ -314,9 +314,9 @@ a:active {
 button {
   display: flex;
   position: absolute;  
-  top: 350px;           /* Distance from the top */
-  right: 30px;         /* Distance from the right side */
-  gap: 30px;       /* Distance from the right side */
+  top: 500px;           /* Distance from the top */
+  right: 100px;         /* Distance from the right side */
+  gap: 50px;       /* Distance from the right side */
  padding: 10px 5px;
   margin: 4px;
   font-size: 18px;
