@@ -479,3 +479,11 @@ button:hover {
   right: 0;
   top: 0;
 }
+
+
+.special-text {
+  color:gray;
+  font-size: 18px;
+  font-family: 'Cambria', serif;
+  font-weight: normal;
+}
