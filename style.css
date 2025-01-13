@@ -457,3 +457,11 @@ button:hover {
     gap: 0.5rem; /* Reduces gap between links further */
   }
 }
+
+.centered-text {
+  text-align: center;
+}
+
+.padding-chapter {
+  padding: 10px; /* Adjust the padding value as needed */
+}
