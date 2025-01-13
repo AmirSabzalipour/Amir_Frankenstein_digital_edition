@@ -5,6 +5,8 @@ body {
   font-family: 'Cambria', serif;
   max-width: 100%;
   overflow-x: hidden; /* Prevent horizontal scrolling */
+  font-size: 24px;
+
 }
 
 /* Header image adjustments */
