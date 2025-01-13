@@ -340,10 +340,10 @@ a:active {
 button {
   padding: 6px 15px;
   margin: 5px;
-  font-size: 18px;
+  font-size: 24px;
   cursor: pointer;
   background-color: #86a987;
-  color: rgb(0, 0, 0);
+  color: black;
   border: none;
   border-radius: 10px;
 }
