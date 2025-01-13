@@ -274,99 +274,6 @@ a:active {
   text-decoration: underline;
 }
 
-.navigation-buttons {
-  display: flex;
-  justify-content: flex-end;
-  margin: 10px 20px;
-  gap: 10px;
-  position: relative;
-  z-index: 1000;
-}
-
-.navigation-buttons .btn {
-  padding: 10px 15px;
-  font-size: 16px;
-  text-decoration: none;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.navigation-buttons .btn:hover {
-  background-color: #0056b3;
-}
-
-.circled {
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 1.5em;
-  border: 3px solid gray;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 1.1em;
-  vertical-align: middle;
-}
-
-button {
-  display: flex;
-  position: absolute;  
-  top: 500px;           /* Distance from the top */
-  left: 300px;         /* Distance from the right side */
-  gap: 90px;       /* Distance from the right side */
-  padding: 10px 50px;
-  margin: 4px;
-  font-size: 18px;
-  cursor: pointer;
-  background-color: black;
-  color:white;
-  border: none;
-  border-radius: 20px;
-}
-
-button:hover {
-  background-color: blue;
-}
-
-#folio {
-  color:black;
-  display: flex;
-  position: absolute;  
-  top: 250px;           /* Distance from the top */
-  left: 50px;  
-  font-size: 20px;
-  font-family: 'Cambria', serif;
-  font-weight: normal;
-}
-
-.page-navigation {
-  display: flex;
-  position: absolute;  /* or 'fixed' depending on if you want it to stay in place on scroll */
-  top: 10px;           /* Distance from the top */
-  right: 20px;         /* Distance from the right side */
-  gap: 10px;
-}
-#prev-page,
-#next-page {
-  background-color: orange;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 6px 15px;
-  margin: 10px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-#prev-page:hover,
-#next-page:hover {
-  background-color: darkorange;
-}
-
-
-
 
 
 /* Navigation Bar */
@@ -487,3 +394,102 @@ button:hover {
   text-align: justify;
   margin-bottom: 20px;
 }
+
+
+
+.circled {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 1.5em;
+  border: 3px solid gray;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.1em;
+  vertical-align: middle;
+}
+
+
+#folio {
+  color:black;
+  display: flex;
+  position: absolute;  
+  top: 250px;           /* Distance from the top */
+  left: 50px;  
+  font-size: 20px;
+  font-family: 'Cambria', serif;
+  font-weight: normal;
+}
+
+
+
+
+
+.navigation-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 20px;
+  gap: 10px;
+  position: relative;
+  z-index: 1000;
+}
+
+.navigation-buttons .btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-buttons .btn:hover {
+  background-color: #0056b3;
+}
+
+
+button {
+  padding: 6px 15px;
+  margin: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: #86a987;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+
+.page-navigation {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 650px;
+  gap: 10px;
+}
+
+#prev-page,
+#next-page {
+  background-color: #86a987;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 6px 15px;
+  margin: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#prev-page:hover,
+#next-page:hover {
+  background-color: #45a049;
+}
+
+
