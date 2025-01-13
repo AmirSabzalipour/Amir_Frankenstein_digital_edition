@@ -186,15 +186,6 @@ p {
 }
 
 
-p {
-  font-family: "Georgia", serif;
-  font-size: 18px;
-  line-height: 1.6;
-  text-align: justify;
-  color: #4a4a4a;
-  margin: 10px 0;
-}
-
 .content-section {
   margin-top: -25px;
   text-align: left;
@@ -218,12 +209,12 @@ p {
 }
 
 .add {
-  font-family: "Georgia", sans-serif;
-  color: #748174;
+  font-family: 'Avenir Next LT Pro';
+  color: blue;
 }
 
 .del {
-  color: #748174;
+  color:darkred;
   text-decoration: line-through;
 }
 
