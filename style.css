@@ -301,10 +301,10 @@ a:active {
 
 .circled {
   display: inline-block;
-  width: 2em;
-  height: 2em;
+  width: 1em;
+  height: 1em;
   line-height: 1.5em;
-  border: 3px solid lightslategray;
+  border: 3px solid gray;
   border-radius: 50%;
   text-align: center;
   font-size: 1.1em;
