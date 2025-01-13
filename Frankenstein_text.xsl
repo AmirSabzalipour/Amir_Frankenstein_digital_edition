@@ -56,6 +56,25 @@
     </xsl:template>
 
     <xsl:template match="tei:hi[@rend='underline']">
+    <span class="no-underline" style="text-decoration: none;">
+        <xsl:apply-templates/>
+    </span>
+</xsl:template>
+
+<xsl:template match="tei:hi[@rend='supralinear' and @rend='underline']">
+    <!-- Apply superscript style but remove underline -->
+    <span class="supraAdd" style="vertical-align: super; text-decoration: none;">
+        <xsl:apply-templates/>
+    </span>
+</xsl:template>
+
+
+
+
+
+
+
+    <xsl:template match="tei:hi[@rend='underline']">
         <span class="underline">
             <xsl:apply-templates/>
         </span>
@@ -95,7 +114,7 @@
 </xsl:template> -->
 
 <xsl:template match="tei:add[@place='supralinear']">
-    <span class="supraAdd"  hand="{@hand}"  style="position: relative; margin-left: -100px; top: -1.6em; ">
+    <span class="supraAdd"  hand="{@hand}"  style="position: relative; margin-left: -100px; top: -1.6em; padding-right: -47px; ">
         <xsl:apply-templates/>
     </span>
 </xsl:template>

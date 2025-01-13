@@ -34,8 +34,10 @@
          <div type="page" n="21r" rend="recto">
             <pb facs="#p21r"/>
             <head>
-               Chapter 7<hi rend="supralinear" hand="#MWS"><hi place="supralinear" hand="#MWS" rend="underline">th</hi></hi> 
-                              <metamark function="pagenumber" hand="#MWS"><num><hi rend="circled" hand="#MWS">75</hi></num></metamark>
+               <!-- Chapter 7<hi rend="supralinear" hand="#MWS"><hi place="supralinear" hand="#MWS" rend="underline">th</hi></hi>  -->
+Chapter 7<hi rend="supralinear" hand="#MWS"><hi place="supralinear" hand="#MWS">th</hi></hi>
+
+               <metamark function="pagenumber" hand="#MWS"><num><hi rend="circled" hand="#MWS">75</hi></num></metamark>
             </head>
             <p>
                It was on a dreary night of November<lb/><lb/>
