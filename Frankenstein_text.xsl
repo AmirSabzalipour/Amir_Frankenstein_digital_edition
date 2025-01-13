@@ -50,10 +50,17 @@
     </xsl:template>
 
     <xsl:template match="tei:hi[@rend='supralinear']">
-        <span class="supraAdd" style="vertical-align: super;">
+        <span class="supraAdd" style="vertical-align: super;top: -1.6em;">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
+
+<!-- <xsl:template match="tei:add[@place='supralinear']">
+    <span style="position: relative; margin-left: -270px; top: -1.6em;">
+        <xsl:apply-templates/>
+    </span>
+</xsl:template> -->
+
 
     <xsl:template match="tei:hi[@rend='underline']">
         <span class="underline">
