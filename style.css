@@ -338,14 +338,14 @@ a:active {
 }
 
 button {
-  padding: 6px 15px;
+  padding: 10px 15px;
   margin: 5px;
   font-size: 24px;
   cursor: pointer;
-  background-color: #86a987;
-  color: black;
+  background-color: black;
+  color:white;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 button:hover {
