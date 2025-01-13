@@ -121,6 +121,17 @@
         </span>
     </xsl:template>
 
+
+<xsl:template match="tei:del[@type='crossedOut']">
+    <span class="del" hand="{@hand}" 
+          style="font-style: italic; text-decoration: line-through; color: gray;">
+        <xsl:apply-templates/>
+    </span>
+</xsl:template>
+
+
+
+
     <xsl:template match="tei:list">
         <span class="list" hand="{@hand}">
             <xsl:apply-templates/>
