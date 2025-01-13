@@ -42,7 +42,6 @@ var mirador = Mirador.viewer({
   ]
 });
 
-// Function to transform the text encoded in TEI with the XSL stylesheet "Frankenstein_text.xsl"
 function documentLoader() {
     Promise.all([
       fetch(folio_xml).then(response => response.text()),
@@ -58,7 +57,7 @@ function documentLoader() {
       var resultDocument = xsltProcessor.transformToFragment(xml_doc, document);
 
       var criticalElement = document.getElementById("text");
-      criticalElement.innerHTML = ''; // Clear existing content
+      criticalElement.innerHTML = '';
       criticalElement.appendChild(resultDocument);
     })
     .catch(function (error) {
@@ -66,7 +65,6 @@ function documentLoader() {
     });
 }
 
-// Function to transform the metadata encoded in teiHeader with the XSL stylesheet "Frankenstein_meta.xsl"
 function statsLoader() {
     Promise.all([
       fetch(folio_xml).then(response => response.text()),
@@ -82,7 +80,7 @@ function statsLoader() {
       var resultDocument = xsltProcessor.transformToFragment(xml_doc, document);
 
       var criticalElement = document.getElementById("stats");
-      criticalElement.innerHTML = ''; // Clear existing content
+      criticalElement.innerHTML = ''; 
       criticalElement.appendChild(resultDocument);
     })
     .catch(function (error) {
@@ -115,7 +113,7 @@ function selectHand(event) {
             element.style.backgroundColor = 'transparent'
         });
         PercyArray.forEach(element => {
-            element.style.color = '#AAAAAA';
+            element.style.color = '#878787';
             element.style.backgroundColor = 'transparent';
         });
     } else if (event.target.value === 'Percy') {
@@ -124,7 +122,7 @@ function selectHand(event) {
             element.style.backgroundColor = 'transparent';
         });
         MaryArray.forEach(element => {
-            element.style.color = '#AAAAAA';
+            element.style.color = '#878787';
             element.style.backgroundColor = 'transparent';
         });
     }
@@ -140,24 +138,77 @@ function toggleDeletions() {
 }
 
 document.getElementById('toggle-deletions').addEventListener('click', toggleDeletions);
-// Toggle reading version (hide deletions and show additions inline)
+
 function toggleReadingVersion() {
   const deletions = document.querySelectorAll('.del');
   const additions = document.querySelectorAll('.supraAdd');
   
-  // Hide all deletions
+
   deletions.forEach(deletion => deletion.style.display = 'none');
   
-  // Set supralinear additions to inline (remove superscript style)
   additions.forEach(addition => {
-      addition.style.fontStyle = 'normal';  // Remove italic style (if any)
-      addition.style.verticalAlign = 'unset';  // Remove vertical alignment (superscript)
-      addition.style.display = 'inline';  // Ensure it's inline like normal text
+      addition.style.fontStyle = 'normal';  
+      addition.style.verticalAlign = 'unset';  
+      addition.style.display = 'inline';  
   });
 }
 
 document.getElementById('toggle-reading').addEventListener('click', toggleReadingVersion);
 
+document.getElementById('next-page').addEventListener('click', function () {
+  let currentFolio = document.getElementById('folio').innerText;
+  let currentPageNumber = parseInt(currentFolio.match(/\d+/)[0]);
+  let currentSide = currentFolio.slice(-1); 
+
+  if (currentPageNumber < 25 || (currentPageNumber === 25 && currentSide === 'r')) {
+    let nextPageNumber = currentPageNumber;
+    let nextSide = (currentSide === 'r') ? 'v' : 'r'; 
+
+
+    if (currentSide === 'r') {
+      nextSide = 'v';
+    } else if (currentPageNumber < 25) {
+      nextPageNumber += 1; 
+      nextSide = 'r';
+    }
+
+    if (currentPageNumber === 25 && currentSide === 'r') {
+      nextPageNumber = 25; 
+      nextSide = 'v'; 
+    }
+
+    let nextPage = document.getElementById('folio');
+    nextPage.innerText = nextPageNumber + nextSide; 
+    window.location.href = nextPageNumber + nextSide + ".html"; 
+  }
+});
+
+document.getElementById('prev-page').addEventListener('click', function () {
+  let currentFolio = document.getElementById('folio').innerText;
+  let currentPageNumber = parseInt(currentFolio.match(/\d+/)[0]);
+  let currentSide = currentFolio.slice(-1); 
+
+  if (currentPageNumber > 21 || (currentPageNumber === 21 && currentSide === 'v')) {
+    let prevPageNumber = currentPageNumber;
+    let prevSide = (currentSide === 'r') ? 'v' : 'r'; 
+
+    if (currentSide === 'v') {
+      prevSide = 'r';
+    } else if (currentPageNumber > 21) {
+      prevPageNumber -= 1;
+      prevSide = 'v';
+    }
+
+    if (currentPageNumber === 25 && currentSide === 'v') {
+      prevPageNumber = 25; 
+      prevSide = 'r'; 
+    }
+
+    let prevPage = document.getElementById('folio');
+    prevPage.innerText = prevPageNumber + prevSide; 
+    window.location.href = prevPageNumber + prevSide + ".html"; 
+  }
+});
 
 // write another function that will toggle the display of the deletions by clicking on a button
 // EXTRA: write a function that will display the text as a reading text by clicking on a button or another dropdown list, meaning that all the deletions are removed and that the additions are shown inline (not in superscript)
