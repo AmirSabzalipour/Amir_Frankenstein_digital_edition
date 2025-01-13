@@ -456,10 +456,10 @@ button {
   margin: 5px;
   font-size: 13px;
   cursor: pointer;
-  background-color: orange;
-  color: rgb(0, 0, 0);
+  background-color: black;
+  color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 button:hover {
@@ -479,11 +479,11 @@ button:hover {
 #prev-page,
 #next-page {
   background-color:black;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
+  color: white;
+  border-radius: 20px;
   padding: 6px 15px;
   margin: 5px;
-  font-size: 13px;
+  font-size: 16px;
   cursor: pointer;
 }
 
