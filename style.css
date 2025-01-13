@@ -514,7 +514,7 @@ button:hover, .navigation-buttons .btn:hover, #prev-page:hover, #next-page:hover
   display: flex;
   justify-content: flex-end;  /* Align buttons to the right */
   position: fixed;  /* Fixed positioning */
-  top: 10px;  /* 10px from the top of the page */
+  top: 30px;  /* 10px from the top of the page */
   right: 20px;  /* 20px from the right of the page */
   gap: 10px;
   z-index: 1000;  /* Ensure buttons are on top of other content */
