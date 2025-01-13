@@ -464,4 +464,5 @@ button:hover {
 
 .padding-chapter {
   padding: 10px; /* Adjust the padding value as needed */
+  display: flex; justify-content: flex-end; margin-top: 0px; margin-right: 40px
 }
