@@ -107,7 +107,7 @@
     </xsl:template>
 
     <xsl:template match="tei:del">
-        <span class="del" hand="{@hand}" style="font-style: italic; color: gray">
+        <span class="del" hand="{@hand}" style="font-style: italic;">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
